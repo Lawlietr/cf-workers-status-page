@@ -24,9 +24,9 @@ monitors:
 #    followRedirect: false # should fetch follow redirects, default=false
 #    linkable: false # allows the title to be a link, default=true
 
-  - id: Chat
+  - id: Chat2
     name: Chat
-    url: 'https://chat2.avpclub.uk:2087/#/chat/1002'
+    url: 'https://chat2.avpclub.uk:2087'
     method: GET
     expectStatus: 200
     linkable: false
@@ -40,7 +40,7 @@ monitors:
 
   - id: libnms
     name: NMS
-    url: 'https://nms.avpclub.uk:2087/login'
+    url: 'https://nms.avpclub.uk:2087'
     method: GET
     expectStatus: 200
     linkable: false
@@ -60,8 +60,15 @@ monitors:
     linkable: false
     
   - id: PCDVD
-    name: PCDVD
+    name: PCDVD.COM.TW
     url: 'https://www.pcdvd.com.tw/'
+    method: GET
+    expectStatus: 200
+    linkable: true
+    
+  - id: PCDVD2
+    name: FORUM.PCDVD.COM.TW
+    url: 'https://forum.pcdvd.com.tw/'
     method: GET
     expectStatus: 200
     linkable: true
