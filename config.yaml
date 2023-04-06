@@ -24,7 +24,7 @@ monitors:
 #    followRedirect: false # should fetch follow redirects, default=false
 #    linkable: false # allows the title to be a link, default=true
 
-  - id: Chat2
+  - id: chat
     name: Chat
     url: 'https://chat2.avpclub.uk:2087'
     method: GET
@@ -32,20 +32,20 @@ monitors:
     linkable: false
     
   - id: J
-    name: J
+    name: j
     url: 'https://j.avpclub.uk:2053/'
     method: GET
     expectStatus: 200
     linkable: false
 
-  - id: libnms
+  - id: nms
     name: NMS
     url: 'https://nms.avpclub.uk:2087'
     method: GET
     expectStatus: 200
     linkable: false
 
-  - id: NC
+  - id: nc
     name: NC
     url: 'https://xl3.avpclub.uk:2087/'
     method: GET
