@@ -52,7 +52,7 @@ monitors:
     expectStatus: 200
     linkable: false
 
-- id: avpclub
+  - id: avpclub
     name: AVP
     url: 'https://www.avpclub.uk'
     method: GET
