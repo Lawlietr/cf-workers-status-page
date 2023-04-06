@@ -26,7 +26,7 @@ monitors:
 
   - id: Chat
     name: Chat
-    url: 'https://chat2.avpclub.uk:2087/'
+    url: 'https://chat2.avpclub.uk:2087/#/chat/1002'
     method: GET
     expectStatus: 403
     linkable: false
@@ -40,7 +40,7 @@ monitors:
 
   - id: libnms
     name: NMS
-    url: 'https://nms.avpclub.uk:2087/'
+    url: 'https://nms.avpclub.uk:2087/login'
     method: GET
     expectStatus: 200
     linkable: false
