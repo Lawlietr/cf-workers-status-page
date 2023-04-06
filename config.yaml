@@ -27,13 +27,15 @@ monitors:
   - id: j.avpclub.uk
     name: j.avpclub.uk:2053
     #description: 'Built for anything connected to the Internet.'
-    url: 'https://j.avpclub.uk:2053'
+    url: 'https://j.avpclub.uk:2053/'
     method: GET
     expectStatus: 200
 #    linkable: true # allows the title to be a link, default=true
+    linkable: false
 
   - id: PCDVD
     name: PCDVD
     url: 'https://www.pcdvd.com.tw/'
     method: GET
     expectStatus: 200
+    linkable: false
