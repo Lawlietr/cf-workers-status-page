@@ -44,6 +44,13 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false
+    
+  - id: xl5
+    name: XL5
+    url: 'https://xl5.avpclub.uk:2087'
+    method: GET
+    expectStatus: 200
+    linkable: false
 
   - id: nc
     name: NC
