@@ -32,7 +32,7 @@ monitors:
     linkable: false
     
   - id: J
-    name: j
+    name: J
     url: 'https://j.avpclub.uk:2053/'
     method: GET
     expectStatus: 200
