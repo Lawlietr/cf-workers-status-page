@@ -14,7 +14,7 @@ settings:
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
-#monitors:
+monitors:
 #  - id: workers-cloudflare-com # unique identifier
 #    name: workers.cloudflare.com
 #    description: 'You write code. They handle the rest.' # default=empty
