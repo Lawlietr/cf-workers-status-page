@@ -38,8 +38,8 @@ monitors:
     expectStatus: 200
     linkable: false
 
-  - id: NMS
-    name: libnms
+  - id: libnms
+    name: NMS
     url: 'https://nms.avpclub.uk:2087/'
     method: GET
     expectStatus: 200
@@ -48,6 +48,13 @@ monitors:
   - id: NC
     name: NC
     url: 'https://xl3.avpclub.uk:2087/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+- id: avpclub
+    name: AVP
+    url: 'https://www.avpclub.uk'
     method: GET
     expectStatus: 200
     linkable: false
