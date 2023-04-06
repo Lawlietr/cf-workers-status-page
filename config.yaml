@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status.avpclub.uk/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -31,7 +31,7 @@ monitors:
     expectStatus: 200
     linkable: false
     
-  - id: jj
+  - id: j
     name: J
     url: 'https://j.avpclub.uk:2053/'
     method: GET
