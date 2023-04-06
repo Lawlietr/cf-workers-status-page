@@ -28,7 +28,7 @@ monitors:
     name: Chat
     url: 'https://chat2.avpclub.uk:2087'
     method: GET
-    expectStatus: 403
+    expectStatus: 200
     linkable: false
     
   - id: J
@@ -42,7 +42,7 @@ monitors:
     name: NMS
     url: 'https://nms.avpclub.uk:2087'
     method: GET
-    expectStatus: 403
+    expectStatus: 200
     linkable: false
 
   - id: NC
