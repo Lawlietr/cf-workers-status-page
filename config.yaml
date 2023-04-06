@@ -24,8 +24,8 @@ monitors:
 #    followRedirect: false # should fetch follow redirects, default=false
 #    linkable: false # allows the title to be a link, default=true
 
-  - id: j.avpclub.uk
-    name: j.avpclub.uk:2053
+  - id: j
+    name: J
     #description: 'Built for anything connected to the Internet.'
     url: 'https://j.avpclub.uk:2053/'
     method: GET
