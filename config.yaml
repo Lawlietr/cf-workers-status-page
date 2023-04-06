@@ -23,13 +23,6 @@ monitors:
 #    expectStatus: 200 # operational status, default=200
 #    followRedirect: false # should fetch follow redirects, default=false
 #    linkable: false # allows the title to be a link, default=true
-
-  - id: chat
-    name: Chat
-    url: 'https://chat2.avpclub.uk:2087'
-    method: GET
-    expectStatus: 200
-    linkable: false
     
   - id: j
     name: J
@@ -38,23 +31,9 @@ monitors:
     expectStatus: 200
     linkable: false
 
-  - id: nms
-    name: NMS
-    url: 'https://nms.avpclub.uk:2087'
-    method: GET
-    expectStatus: 200
-    linkable: false
-    
-  - id: xl5
-    name: XL5
-    url: 'https://xl5.avpclub.uk:2087'
-    method: GET
-    expectStatus: 200
-    linkable: false
-
-  - id: nc
-    name: NC
-    url: 'https://xl3.avpclub.uk:2087/'
+  - id: bdr
+    name: BDR
+    url: 'https://bdr.avpclub.uk:2053'
     method: GET
     expectStatus: 200
     linkable: false
