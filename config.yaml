@@ -24,18 +24,37 @@ monitors:
 #    followRedirect: false # should fetch follow redirects, default=false
 #    linkable: false # allows the title to be a link, default=true
 
+  - id: Chat
+    name: Chat
+    url: 'https://chat2.avpclub.uk:2087/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+    
   - id: j
     name: J
-    #description: 'Built for anything connected to the Internet.'
     url: 'https://j.avpclub.uk:2053/'
     method: GET
     expectStatus: 200
-#    linkable: true # allows the title to be a link, default=true
     linkable: false
 
-  - id: PCDVD
+  - id: NMS
+    name: libnms
+    url: 'https://nms.avpclub.uk:2087/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: NC
+    name: NC
+    url: 'https://xl3.avpclub.uk:2087/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+    
+ - id: PCDVD
     name: PCDVD
     url: 'https://www.pcdvd.com.tw/'
     method: GET
     expectStatus: 200
-    linkable: false
+    linkable: true
