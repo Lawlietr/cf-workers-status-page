@@ -28,7 +28,7 @@ monitors:
     name: Chat
     url: 'https://chat2.avpclub.uk:2087/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
     linkable: false
     
   - id: J
