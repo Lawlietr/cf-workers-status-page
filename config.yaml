@@ -25,15 +25,15 @@ monitors:
 #    linkable: false # allows the title to be a link, default=true
     
   - id: j
-    name: J
+    name: 7
     url: 'https://j.avpclub.uk:2053/'
     method: GET
     expectStatus: 200
     linkable: false
 
-  - id: bdr
-    name: BDR
-    url: 'https://bdr.avpclub.uk:2053'
+  - id: h
+    name: I-I
+    url: 'https://h.avpclub.uk/'
     method: GET
     expectStatus: 200
     linkable: false
